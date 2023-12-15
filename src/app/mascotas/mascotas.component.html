@@ -1,0 +1,13 @@
+<p>LISTA DE MASCOTAS</p>
+
+
+<ul class="list-group">
+  @for (m of mascotas; track m.id) {
+    <li class="list-group-item">{{m.nombre}} - {{m.raza}}</li>
+  }
+  <!-- <li class="list-group-item">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li> -->
+</ul>
